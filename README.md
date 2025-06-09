@@ -49,7 +49,7 @@ Each task object includes:
 
 ### 3.1.Tasks Screenshots
 
-### 1.MongoDB running
+#### 1.MongoDB running
 ![Mongodb](screenshots/mongodb_showing.png)
 
 #### 2.Creating a Task
@@ -58,13 +58,13 @@ Each task object includes:
 #### 3.Getting tasks
 ![Get](screenshots/get_all_tasks.png)
 
-### 4.Searching tasks
+#### 4.Searching tasks
 ![Search](screenshots/search_by_id.png)
 
-### 5.Executing a command
+#### 5.Executing a command
 ![Execute](screenshots/Execute%20task.png)
 
-### 6.Deleting tasks
+#### 6.Deleting tasks
 ![delete](screenshots/delete_task.png)
 
 ---
