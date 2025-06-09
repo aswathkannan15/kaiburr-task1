@@ -35,7 +35,7 @@ Each **Task** object stores:
 
 ## 📁 Project Structure
 src/
-├── Controller
+```├── Controller
 │ └── TaskController.java
 ├── model
 │ ├── Task.java
