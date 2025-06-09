@@ -87,7 +87,7 @@ http://localhost:8090/tasks
 ![Search](screenshots/search_by_id.png)
 
 ### Executing a command
-![Execute](screenshots/Execute task.png)
+![Execute](screenshots/Execute%20task.png)
 
 ### Deleting tasks
 ![delete](screenshots/delete_task.png)
