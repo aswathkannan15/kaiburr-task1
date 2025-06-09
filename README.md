@@ -69,8 +69,26 @@ cd kaiburr-task1
 ```
 4.Verify it’s working
 ```bash
-http://localhost:8080/tasks
+http://localhost:8090/tasks
 ```
+---
+## Tasks Screenshots
 
+### MongoDB running
+![Mongodb](screenshots/mongodb_showing.png)
 
+### Creating a Task
+![Create](screenshots/create_task.png)
+
+### Getting tasks
+![Get](screenshots/get_all_tasks.png)
+
+### Searching tasks
+![Search](screenshots/search_by_id.png)
+
+### Executing a command
+![Execute](screenshots/Execute task.png)
+
+### Deleting tasks
+![delete](screenshots/delete_task)
 
