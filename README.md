@@ -57,7 +57,7 @@ src/
 1.Clone the repo
 ```bash
 git clone https://github.com/aswathkannan15/kaiburr-task1.git
-cd springboot-task-api
+cd kaiburr-task1
 ```
 2.Build the project
 ```bash
