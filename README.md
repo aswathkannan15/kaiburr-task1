@@ -92,4 +92,7 @@ cd kaiburr-task1
 http://localhost:8090/tasks
 ```
 ---
+## Author
+
+### Name: Aswath Kannan B
 
