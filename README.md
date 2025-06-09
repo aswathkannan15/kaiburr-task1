@@ -31,7 +31,7 @@ Each task object includes:
 - `taskExecutions` – List of executions (startTime, endTime, output)
 
 ---
-## 📁 Project Structure
+## Project Structure
 ```bash
 src/
 ├── Controller
@@ -47,5 +47,30 @@ src/
 ```
 ### Github repo showing all files
 ![github repo Screenshot](screenshots/github.png)
+---
+## How to Run 
+### Prerequisites
+- Java 17+ installed
+- MongoDB installed locally and running at localhost
+- Maven installed
+
+1.Clone the repo
+```bash
+git clone https://github.com/aswathkannan15/kaiburr-task1.git
+cd springboot-task-api
+```
+2.Build the project
+```bash
+./mvnw clean install
+```
+3.Run the app
+```bash
+./mvnw spring-boot:run
+```
+4.Verify it’s working
+```bash
+http://localhost:8080/tasks
+```
+
 
 
