@@ -90,5 +90,5 @@ http://localhost:8090/tasks
 ![Execute](screenshots/Execute task.png)
 
 ### Deleting tasks
-![delete](screenshots/delete_task)
+![delete](screenshots/delete_task.png)
 
