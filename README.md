@@ -4,7 +4,7 @@ A simple Spring Boot REST API for creating, running, and managing tasks, where e
 
 ---
 
-## Technologies Used
+## 1.Technologies Used
 
 - Java 17+
 - Spring Boot
@@ -13,7 +13,24 @@ A simple Spring Boot REST API for creating, running, and managing tasks, where e
 - Postman
 
 ---
-## Features / Endpoints
+## 2.Project Structure
+```bash
+src/
+├── Controller
+│ └── TaskController.java
+├── model
+│ ├── Task.java
+│ └── TaskExecution.java
+├── repository
+│ └── TaskRepo.java
+├── service
+│ └── TaskService.java
+└── Task1Application.java
+```
+### 2.1.Github repo showing all files
+![github repo Screenshot](screenshots/github.png)
+---
+## 3.Features / Endpoints
 
 | METHOD | ENDPOINT                  | FUNCTION                                      |
 |--------|---------------------------|-----------------------------------------------|
@@ -30,25 +47,28 @@ Each task object includes:
 - `command` – Shell command to run
 - `taskExecutions` – List of executions (startTime, endTime, output)
 
+### 3.1.Tasks Screenshots
+
+### 1.MongoDB running
+![Mongodb](screenshots/mongodb_showing.png)
+
+#### 2.Creating a Task
+![Create](screenshots/create_task.png)
+
+#### 3.Getting tasks
+![Get](screenshots/get_all_tasks.png)
+
+### 4.Searching tasks
+![Search](screenshots/search_by_id.png)
+
+### 5.Executing a command
+![Execute](screenshots/Execute%20task.png)
+
+### 6.Deleting tasks
+![delete](screenshots/delete_task.png)
+
 ---
-## Project Structure
-```bash
-src/
-├── Controller
-│ └── TaskController.java
-├── model
-│ ├── Task.java
-│ └── TaskExecution.java
-├── repository
-│ └── TaskRepo.java
-├── service
-│ └── TaskService.java
-└── Task1Application.java
-```
-### Github repo showing all files
-![github repo Screenshot](screenshots/github.png)
----
-## How to Run 
+## 4.How to Run 
 ### Prerequisites
 - Java 17+ installed
 - MongoDB installed locally and running at localhost
@@ -72,23 +92,4 @@ cd kaiburr-task1
 http://localhost:8090/tasks
 ```
 ---
-## Tasks Screenshots
-
-### MongoDB running
-![Mongodb](screenshots/mongodb_showing.png)
-
-### Creating a Task
-![Create](screenshots/create_task.png)
-
-### Getting tasks
-![Get](screenshots/get_all_tasks.png)
-
-### Searching tasks
-![Search](screenshots/search_by_id.png)
-
-### Executing a command
-![Execute](screenshots/Execute%20task.png)
-
-### Deleting tasks
-![delete](screenshots/delete_task.png)
 
