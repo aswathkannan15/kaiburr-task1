@@ -81,13 +81,13 @@ cd kaiburr-task1
 ```
 2.Build the project
 ```bash
-./mvnw clean install
+mvnw.cmd clean install
 ```
 3.Run the app
 ```bash
-./mvnw spring-boot:run
+mvnw.cmd spring-boot:run
 ```
-4.Verify it’s working
+4.Verify it’s working in postman
 ```bash
 http://localhost:8090/tasks
 ```
